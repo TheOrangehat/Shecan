@@ -1,5 +1,5 @@
 import './style/Middelecontent.css'
-
+import img from '../assets/3.webp'
 function Middelecontent(){
 return <div className="h-screen">
       <div className="h-[calc(100vh-100px)] bg-no-repeat bg-fill bg-right flex justify-between">
@@ -7,7 +7,7 @@ return <div className="h-screen">
         <div className=" w-3/6 min-h-full flex justify-center items-center ">
           <div className="h-96 w-80">
             <img
-              src=""
+              src={img}
               alt=""
               className="object-cover w-full h-full border-4 rounded-2xl border-gray-600"
             />
@@ -23,6 +23,11 @@ return <div className="h-screen">
           </div>
         </div>
       </div>
+            <p className="text-center text-lg text-amber-600 mt-4 opacity-80">
+  Made with React JS <br />
+<a href="https://github.com/TheOrangehat/Shecan">Github Link</a>
+
+</p>
     </div>
 
 

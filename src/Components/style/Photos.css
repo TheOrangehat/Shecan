@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.carsolimg{
+    border: 2px solid #000;
+    height: 384px;
+    border-radius: 24px;
+    width: 320px;
+    margin: 10px ;
+    position: relative;
+
+}
+
+.crlimg{
+    -webkit-box-shadow: 2px 12px 36px 5px rgba(0,0,0,0.86); 
+box-shadow: 2px 12px 36px 5px rgba(0,0,0,0.86);
+}
